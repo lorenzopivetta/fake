@@ -113,6 +113,7 @@ void Fake::delete_device()
 	/*----- PROTECTED REGION ID(Fake::delete_device) ENABLED START -----*/
 	
 	//	Delete device allocated objects
+	set_state)Tango::OFF);
 	
 	/*----- PROTECTED REGION END -----*/	//	Fake::delete_device
 }
