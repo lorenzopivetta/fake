@@ -137,6 +137,7 @@ void Fake::init_device()
 	/*----- PROTECTED REGION ID(Fake::init_device) ENABLED START -----*/
 	
 	//	Initialize device
+	set_state(Tango::ON);
 	
 	/*----- PROTECTED REGION END -----*/	//	Fake::init_device
 }
